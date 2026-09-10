@@ -18,6 +18,7 @@ const testOpenAI = async () => {
           "Content-Type": "application/json"
         }
       }
+      
     );
     console.log(res.data.choices[0].message.content);
   } catch (err) {
